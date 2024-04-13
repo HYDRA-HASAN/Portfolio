@@ -100,7 +100,7 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 13.4% 0;
-    opacity: 0.3;
+    opacity: 0.5;
     z-index: 1;
     margin-left: -110px;
     margin-top: 20px;
@@ -186,10 +186,49 @@ nav ul li a:hover {
     left: -9px;
 }
 
-.vertical-title {
+.image-top:hover, .image-top2:hover, .image-top3:hover {
+    transform: scale(4); /* Scale the image up by 10% on hover */
+    transition: transform 0.3s;
+}
+
+.vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+}
+
+.vertical-title1 {
+    position: relative;
+    top: 35px;
+    width: 150px;
+    left: -50px;
+}
+
+.vertical-titlea {
+    position: relative;
+    top: 35px;
+    width: 150px;
+    left: -0px;
+}
+
+.vertical-titleb {
+    position: relative;
+    top: 35px;
+    width: 150px;
+    left: -0px;
+}
+
+.vertical-titlec {
+    position: relative;
+    top: 35px;
+    width: 150px;
+    left: 40px;
+}
+
+.vertical-title{
     position: relative;
     top: 75px;
-    width: 150px;
+    width: 150px; 
 }
 
 .vertical-desc {
@@ -200,6 +239,119 @@ nav ul li a:hover {
     font-size: 9px;
 }
 
+.vertical-desc1 {
+    position: relative;
+    top:55px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+    left: -50px;
+}
+
+.vertical-desca {
+    position: relative;
+    top:50px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+    left: -5px;
+}
+
+.vertical-descc {
+    position: relative;
+    top:48px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+    left: 40px;
+}
+
+.vertical-descb {
+    position: relative;
+    top:50px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+    left: -px;
+}
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 55vh;
+}
+
+.image-top1 {
+    width: 290px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Set the position to relative for movement */
+    /* You can adjust these values to move the image */
+    top: 15px; /* Move the image up */
+    left: -140px; /* Move the image left */
+    /* Move the image right and down */
+    right: -20px;
+    bottom: -200px;
+}
+
+.image-topa {
+    width: 290px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Set the position to relative for movement */
+    /* You can adjust these values to move the image */
+    top: 15px; /* Move the image up */
+    left: -110px; /* Move the image left */
+    /* Move the image right and down */
+    right: -20px;
+    bottom: -200px;
+}
+
+.image-topb {
+    width: 290px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Set the position to relative for movement */
+    /* You can adjust these values to move the image */
+    top: 15px; /* Move the image up */
+    left: -80px; /* Move the image left */
+    /* Move the image right and down */
+    right: -20px;
+    bottom: -200px;
+}
+
+.image-topc {
+    width: 290px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Set the position to relative for movement */
+    /* You can adjust these values to move the image */
+    top: 15px; /* Move the image up */
+    left: -50px; /* Move the image left */
+    /* Move the image right and down */
+    right: -20px;
+    bottom: -200px;
+}
+
+.image-top1:hover, .image-topa:hover, .image-topb:hover, .image-topc:hover {
+    transform: scale(2); /* Scale the image up by 10% on hover */
+    transition: transform 0.3s;
+}
+
+.thirdSection h1 {
+    font-size: 1.7rem;
+}
+
+.thirdSection .box {
+    background-color: #ffd700; /* Change box background color to yellow */
+    width: 80vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.thirdSection .vertical,
+.thirdSection .vertical2 {
+    height: 105px;
+    width: 1px;
+    background-color: transparent; /* Change vertical line color to yellow */
+    margin: 0 140px;
+}
 footer {
     background-color: rgba(0, 0, 0, 00); /* Transparent black color */
 }

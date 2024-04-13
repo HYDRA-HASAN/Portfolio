@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: yellow; /* Change text color to yellow */
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+main hr {
+    border: 0;
+    background: #ffd700; /* Change HR color to yellow */
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0); /* Transparent black color */
+    height: 70px;
+}
+
+.container {
+    position: relative;
+    /* Add any other styling you need for the container */
+}
+
+.container .buttons {
+    padding: 35px 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.container .btn {
+    padding: 12px;
+    background: transparent; /* Change button background to transparent */
+    color: #ffd700; /* Change button text color to yellow */
+    border: 2px solid #ffd700; /* Change button border color to yellow */
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none; /* Changed to none */
+    margin-left: 30px;
+}
+
+.container .btn:hover {
+    background-color: rgba(255, 215, 0, 0.2); /* Change button hover background color to a lighter shade of yellow */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow; /* Change nav link color to yellow */
+}
+
+nav ul li a:hover {
+    color: #e6e6e6; /* Change nav link hover color to light yellow */
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    position: relative;
+}
+
+.firstSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Hassan.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 13.4% 0;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.devv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Hassan.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 13.4% 0;
+    opacity: 0.3;
+    z-index: 1;
+    margin-left: -110px;
+    margin-top: 20px;
+}
+
+.leftSection {
+    position: center;
+    z-index: 1;
+    padding: 20px;
+    align-items: center;
+}
+
+.firstSection > div {
+    width: 30%;
+    align-items: center;
+}
+
+.leftSection {
+    position: relative; /* Assuming you want it relative to its current position */
+    z-index: 1;
+    padding: 150px;
+    margin-left: 250px; /* Adjust this value to move it to the right */
+    margin-top: -90px; /* Adjust this value to move it up */
+    font-size: 1.5rem;
+}
+
+.purple {
+    color: #ffd700; /* Change purple text color to yellow */
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: #ffd700; /* Change element text color to yellow */
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 55vh;
+}
+
+.secondSection h1 {
+    font-size: 1.7rem;
+}
+
+.secondSection .box {
+    background-color: #ffd700; /* Change box background color to yellow */
+    width: 80vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical,
+.secondSection .vertical2 {
+    height: 105px;
+    width: 1px;
+    background-color: yellow; /* Change vertical line color to yellow */
+    margin: 0 140px;
+}
+
+.image-top {
+    width: 37px;
+    position: relative;
+    top: -40px;
+    left: -9px;
+}
+
+.image-top2 {
+    width: 31px;
+    position: relative;
+    top: -40px;
+    left: -9px;
+}
+
+.image-top3 {
+    width: 48px;
+    position: relative;
+    top: -50px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 00); /* Transparent black color */
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.social-links img {
+    width: 40px;
+    margin: 0 10px;
+    ;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Ensure the video stays behind other content */
+}
